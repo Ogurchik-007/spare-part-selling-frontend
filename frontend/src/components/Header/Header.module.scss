@@ -1,20 +1,100 @@
+a {
+  text-decoration: none;
+  color: black;
+}
+
 .header {
   max-width: 1920px;
   width: 100%;
   height: 178px;
   margin: 0 auto;
-  background-color: aqua;
+  font-size: 20px;
+}
+
+.headerTop {
+  width: 100%;
+  height: 122px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+
+.basicInformation {
+  width: 444px;
+  margin-right: 81px;
+}
+
+.basicInformationItem {
+  margin-left: 52px;
+}
+
+.basicInformationItem:first-child {
+  margin-left: 0;
+}
+
+.logoImg {
+  width: 102px;
+}
+
+.address {
+  max-width: 317px;
+  width: 100%;
+  margin-left: 65px;
+}
+
+.addressImg {
+  width: 27px;
+  height: 28px;
+  margin-right: 16px;
+  position:relative;
+  top: -10px;
+}
+
+.addressText {
+  display: inline-block;
+ width: 258px;
+}
+
+.consumersCorner {
+  margin-left: 37px;
+}
+
+.consumersCornerImg {
+  height: 23px;
+  margin-left: 16px;
+}
+.consumersCornerImg:first-child {
+  margin-left: 0;
+}
+
+.headerBottom {
+  width: 100%;
+  height: 56px;
+  border-top:1px solid 	#d3d3d3 ;
+  border-bottom:1px solid 	#d3d3d3 ;
   
 }
 
-.header_top {
-  width: 100%;
-  height: 122px;
-  background-color: azure;
+.nav {
+  display: flex;
+  justify-content: center;
+
+ 
 }
 
-.header_bottom {
-  width: 100%;
-  height: 56px;
-  background-color: red;
+.navItem {
+  align-items: center;
+  margin: 19px 0;
+  margin-left: 52px;
+  
+}
+
+.navItem:hover {
+  padding-bottom: 15px;
+  border-bottom: 2px solid orange ;
+}
+
+.navItem:first-child {
+  margin-left: 0;
 }
