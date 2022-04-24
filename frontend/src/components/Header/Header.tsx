@@ -3,9 +3,9 @@ import React from 'react';
 import classes from './Header.module.scss';
 import logo from '../../assets/images/logo.png';
 import arrow from '../../assets/images/arrow.png';
-import favorites from '../../assets/images/favorites.svg';
-import personalArea from '../../assets/images/personalArea.svg';
-import basket from '../../assets/images/basket.svg';
+import favorites from '../../assets/icons/favorites.svg';
+import personalArea from '../../assets/icons/personalArea.svg';
+import basket from '../../assets/icons/basket.svg';
 
 const Header = (): JSX.Element => {
   return (
