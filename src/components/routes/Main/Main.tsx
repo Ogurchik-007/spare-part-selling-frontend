@@ -4,7 +4,7 @@ import classes from './Main.module.scss';
 
 const Main: React.FC = () => (
   <main className={classes.main}>
-				Sliderssdsvvvvvssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
+				Sliderssdsvvvvvsssssssssssssddsssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
   </main>
 );
 
