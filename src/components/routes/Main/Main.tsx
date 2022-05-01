@@ -2,12 +2,10 @@ import React from 'react';
 
 import classes from './Main.module.scss';
 
-const Main: React.FC = () => {
-	return (   
-		<main className={classes.main}>
+const Main: React.FC = () => (
+  <main className={classes.main}>
 				Slider
-		</main>
-	);
-}
-    
+  </main>
+);
+
 export default Main;

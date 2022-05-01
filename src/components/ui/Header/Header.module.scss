@@ -4,31 +4,33 @@ a {
 }
 
 .header {
-  max-width: 1920px;
   width: 100%;
+  max-width: 1920px;
   height: 178px;
-  margin: 0 auto;
   font-size: 20px;
+  margin: 0 auto;
 }
 
 .headerTop {
-  width: 100%;
-  height: 122px;
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100%;
+  height: 122px;
   font-weight: bold;
 }
 
 .basicInformation {
-	width: 444px;
-	margin-right: 81px;
-	a {
-		margin-left: 52px;
-		&:first-child {
-			margin-left: 0;
-		}
-	}
+  width: 444px;
+  margin-right: 81px;
+
+  a {
+    margin-left: 52px;
+
+    &:first-child {
+      margin-left: 0;
+    }
+  }
 }
 
 .logo img {
@@ -36,58 +38,67 @@ a {
 }
 
 .address {
-	max-width: 317px;
-	width: 100%;
-	margin-left: 65px;
-	img {
-		width: 27px;
-		height: 28px;
-		margin-right: 16px;
-		position: relative;
-		top: -10px;
-	}
-	span {
-		display: inline-block;
-		width: 258px;
-	}
+  width: 100%;
+  max-width: 317px;
+  margin-left: 65px;
+
+  img {
+    position: relative;
+    top: -10px;
+    width: 27px;
+    height: 28px;
+    margin-right: 16px;
+  }
+
+  span {
+    display: inline-block;
+    width: 258px;
+  }
 }
 
 .consumersCorner {
-	margin-left: 37px;
-	img {
-		height: 23px;
-		&:last-child {
-			height: 23px;
-		}
-	}
-	a {
-		margin-left: 16px;
-		&:first-child {
-			margin-left: 0;
-		}
-	}
+  margin-left: 37px;
+
+  img {
+    height: 23px;
+
+    &:last-child {
+      height: 23px;
+    }
+  }
+
+  a {
+    margin-left: 16px;
+
+    &:first-child {
+      margin-left: 0;
+    }
+  }
 }
 
 .headerBottom {
   width: 100%;
   height: 56px;
-  border-top:1px solid 	#d3d3d3 ;
-  border-bottom:1px solid 	#d3d3d3 ;
+  border-top: 1px solid 	#d3d3d3;
+  border-bottom: 1px solid 	#d3d3d3;
 }
 
 .nav {
-	display: flex;
-	justify-content: center;
-	a {
-		align-items: center;
-		margin: 19px 0;
-		margin-left: 52px;
-		&:hover {
-			padding-bottom: 14px;
-			border-bottom: 2px solid FF7931 ;
-		}
-		&:first-child {
-			margin-left: 0;
-		}
-	}
+  display: flex;
+  justify-content: center;
+
+  a {
+    align-items: center;
+    margin: 19px 0;
+    margin-left: 52px;
+
+    &:hover {
+      padding-bottom: 14px;
+      border-bottom: 2px solid FF7931;
+    }
+
+    &:first-child {
+      margin-left: 0;
+    }
+  }
 }
