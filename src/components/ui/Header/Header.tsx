@@ -1,15 +1,14 @@
 import React from 'react';
 
+import logo from '../../../assets/images/logo.png';
+import arrow from '../../../assets/images/arrow.png';
+import favorites from '../../../assets/icons/favorites.svg';
+import personalArea from '../../../assets/icons/personalArea.svg';
+import basket from '../../../assets/icons/basket.svg';
 import classes from './Header.module.scss';
-import logo from '../../assets/images/logo.png';
-import arrow from '../../assets/images/arrow.png';
-import favorites from '../../assets/icons/favorites.svg';
-import personalArea from '../../assets/icons/personalArea.svg';
-import basket from '../../assets/icons/basket.svg';
 
-const Header = (): JSX.Element => {
+const Header: React.FC = () => {
   return (
-
     <header className={classes.header}>
       <div className={classes.headerTop}>
         <section className={classes.basicInformation}>
@@ -49,5 +48,5 @@ const Header = (): JSX.Element => {
   );
 }
   
-  export default Header;
+export default Header;
   

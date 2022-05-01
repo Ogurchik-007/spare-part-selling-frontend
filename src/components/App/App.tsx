@@ -1,7 +1,7 @@
 import React from 'react';
 
-import Header from './Header';
-import Main from './Main'
+import Header from '../ui/Header';
+import Main from '../routes/Main'
 
 const App: React.FC = () => {
   return (
