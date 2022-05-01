@@ -53,6 +53,8 @@ module.exports = {
     'unit-no-unknown': true,
     'value-list-comma-newline-after': 'always-multi-line',
     'value-list-comma-space-after': 'always-single-line',
+    'selector-combinator-space-before': 'always',
+    'selector-combinator-space-after': 'always',
     'order/order': [
       'dollar-variables',
       'declarations',
