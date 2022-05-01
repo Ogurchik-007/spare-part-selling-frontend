@@ -16,10 +16,10 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "lint": "eslint ./src",
-    "lint --fix": "eslint ./src --fix --color",
-    "stylelint": "stylelint ./src",
-    "stylelint --fix": "stylelint ./src --fix --color"
+    "lint": "eslint **/*.{ts,tsx}",
+    "lint --fix": "eslint **/*.{ts,tsx} --fix --color",
+    "stylelint": "stylelint **/*.{css,scss}",
+    "stylelint --fix": "stylelint **/*.{css,scss} --fix --color"
   },
   "eslintConfig": {
     "extends": [
@@ -73,7 +73,7 @@
     }
   },
   "lint-staged": {
-    "*.(ts|tsx)": [
+    "*.{ts,tsx,scss,css}": [
       "yarn lint --fix",
       "yarn stylelint --fix",
       "git add" 
