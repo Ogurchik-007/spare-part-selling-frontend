@@ -73,7 +73,7 @@
     }
   },
   "lint-staged": {
-    "*.scss": [
+    "*(.scss|.css)": [
       "yarn lint --fix",
       "yarn stylelint --fix",
       "git add"
