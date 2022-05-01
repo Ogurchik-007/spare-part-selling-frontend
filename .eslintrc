@@ -41,6 +41,7 @@
     "airbnb-typescript"
   ],
   "rules": {
+    "import/newline-after-import": ["error", { "count": 1 }],
     "import/prefer-default-export": "off",
     "import/no-extraneous-dependencies": "off",
     "import/order": [
@@ -85,6 +86,10 @@
     "no-undef-init": "error",
     "newline-per-chained-call": ["error", { "ignoreChainWithDepth": 2 }],
     "default-case": "error",
+    "padding-line-between-statements": [
+      "error",
+      { "blankLine": "always", "prev": "*", "next": "export" }
+    ],
 
     "@typescript-eslint/indent": ["error", 2],
     "@typescript-eslint/no-unused-vars": "warn",
