@@ -73,9 +73,7 @@
     }
   },
   "lint-staged": {
-    "*.{ts,tsx}": [
-      "yarn lint --fix",
-      "yarn stylelint --fix"
-    ]
+    "*.{ts,tsx}": "yarn lint --fix",
+    "*.{css,scss}": "yarn stylelint --fix"
   }
 }

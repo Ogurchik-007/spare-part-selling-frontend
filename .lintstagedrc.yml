@@ -1,0 +1,4 @@
+'*.{ts,tsx}':
+  - yarn lint --fix
+'*.{css,scss}':
+  - yarn stylelint --fix
