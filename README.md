@@ -1,8 +1,8 @@
-# off-black
-Sneaker store app using technologies like node.js, postgres db, REST, React
+# spare-part-selling-frontend
+  Spare-part store app using technologies like React + Redux
 
 ### Branch naming:
-  feature/[b || f]_[task number]-[branch name in cebab-case]
+  feature/[task number]-[branch name in cebab-case]
 
 ### Commit prefixes: 
   - **feat**: A new feature
@@ -15,12 +15,11 @@ Sneaker store app using technologies like node.js, postgres db, REST, React
   - **BREAKING CHANGE**: critical changes, which can break app
 
 ### Commit example:
-  feat: Add Test component
+  feat(App): create component
+  fix(User): change fields to correct
 
 
 ### Frontend structure: 
-  - public/index.html - main and only .html file in project
-  - node_modules - packages used in a project
   - src/components - place for create your components. Folder should include:
 
     [ComponentName in PascalCase].tsx file - component code itself,
@@ -28,12 +27,16 @@ Sneaker store app using technologies like node.js, postgres db, REST, React
     [ComponentName in PascalCase].module.scss file - file for styles,
 
     index.ts - file for export component from [componentName in PascalCase].tsx file
+
+  - src/components/ui - place for ui components
+
+  - src/components/routes - place for components located along a specific route
  
-  - src/types - plase for your types
+  - src/types - place for types
 
-  - src/stores - place for your stores
+  - src/stores - place for stores
 
-  - src/utils - place for you utils( code block for solving a specific problem )
+  - src/utils - place for utils( code block for solving a specific problem )
 
   - tsconfig.json - place for settings typescript work
 
@@ -41,10 +44,7 @@ Sneaker store app using technologies like node.js, postgres db, REST, React
 
   - index.tsx - the main file which render the main component - ./component/App
 
-  - index.scss - styles for index.tsx
+  - index.css - global styles for the project
 
 ### Comand for start the frontend in http://localhost:3000 : 
   **yarn start**
-
-### Comand for start the backend in http://localhost:5000 :
-  **yarn dev**
