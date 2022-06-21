@@ -8,7 +8,7 @@ import basket from '../../../assets/icons/basket.svg';
 import classes from './Header.module.scss';
 
 const Header: React.FC = () => (
-  <header className={classes.header}>
+  <header className={classes.component}>
     <div className={classes.headerTop}>
       <section className={classes.basicInformation}>
         <a href="header">Магазины</a>
